@@ -888,11 +888,10 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     <div class="hp-sec-tag">// 01 &mdash; IDENTITY</div>
     <div class="hp-sec-title">WHO I <span>AM</span></div>
     <div class="hp-about-grid">
-      <div class="hp-about-main reveal">I was 16 when I first opened a terminal.<br>Not to do homework. <span class="r">To understand.</span><br><br>Why does this machine do what it does?<br>Who decides what it&apos;s allowed to do?<br><br>While others learned theory, I was in terminals.<br>While others read slides, I was solving CTFs.<br><br><span class="g">That question never left me.</span></div>
+      <div class="hp-about-main reveal">I&apos;m just a kid who thought he could save the world.<br>Maybe I can&apos;t.<br><br>I don&apos;t have superpowers.<br>But I have <span class="r">this</span> &mdash;<br>the ability to break into anything a human built.<br><br><span class="g">And humans built everything.</span></div>
       <div class="hp-stats">
-        <div class="hp-stat reveal"><div class="hp-stat-num">Top 5%</div><div class="hp-stat-lbl">TRYHACKME GLOBAL RANKING</div></div>
-        <div class="hp-stat reveal"><div class="hp-stat-num">400+</div><div class="hp-stat-lbl">CTF CHALLENGES SOLVED</div></div>
-        <div class="hp-stat reveal"><div class="hp-stat-num">4</div><div class="hp-stat-lbl">SECURITY TOOLS BUILT</div></div>
+        <div class="hp-stat reveal"><div class="hp-stat-num">60+</div><div class="hp-stat-lbl">LABS COMPLETED (HTB + THM)</div></div>
+        <div class="hp-stat reveal"><div class="hp-stat-num" style="font-size:clamp(18px,2.5vw,28px);color:rgba(255,200,0,.7);">IN PROGRESS</div><div class="hp-stat-lbl">SECURITY TOOLS</div></div>
         <div class="hp-stat reveal"><div class="hp-stat-num">3</div><div class="hp-stat-lbl">CERTIFICATIONS</div></div>
       </div>
     </div>
@@ -902,36 +901,34 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     <div class="hp-sec-tag">// 02 &mdash; ARSENAL</div>
     <div class="hp-sec-title">TECHNICAL <span>SKILLS</span></div>
     <div class="hp-skill-group reveal">
-      <div class="hp-skill-lbl">LANGUAGES</div>
-      <div class="hp-skills">
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Python</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Bash</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">JavaScript</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">SQL</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">C</div>
-      </div>
-    </div>
-    <div class="hp-skill-group reveal">
       <div class="hp-skill-lbl">TOOLS</div>
       <div class="hp-skills">
         <div class="hp-skill" onmouseenter="playSfx('hover')">Nmap</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">Burp Suite</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Wireshark</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">Metasploit</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">Ghidra</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Volatility</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">Kali Linux</div>
+      </div>
+    </div>
+    <div class="hp-skill-group reveal">
+      <div class="hp-skill-lbl">AD / RED TEAM</div>
+      <div class="hp-skills">
+        <div class="hp-skill" onmouseenter="playSfx('hover')">BloodHound</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Mimikatz</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Impacket</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">CrackMapExec</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Evil-WinRM</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Rubeus</div>
       </div>
     </div>
     <div class="hp-skill-group reveal">
       <div class="hp-skill-lbl">CONCEPTS</div>
       <div class="hp-skills">
-        <div class="hp-skill" onmouseenter="playSfx('hover')">OWASP Top 10</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Active Directory Attacks</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Lateral Movement</div>
+        <div class="hp-skill" onmouseenter="playSfx('hover')">Privilege Escalation</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">Penetration Testing</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Network Analysis</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">OSINT</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Memory Forensics</div>
-        <div class="hp-skill" onmouseenter="playSfx('hover')">Reverse Engineering</div>
       </div>
     </div>
   </div>
@@ -942,62 +939,16 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     <div class="hp-projects">
       <div class="hp-proj reveal">
         <div class="hp-proj-title">Network Reconnaissance Tool</div>
-        <div class="hp-proj-stack">PYTHON &middot; NMAP &middot; CVE</div>
-        <div class="hp-proj-desc">Automated scanner. Live host detection, port scanning, CVE cross-referencing, HTML reports.</div>
-        <div class="hp-proj-tags"><span class="hp-proj-tag">PYTHON</span><span class="hp-proj-tag">NMAP</span></div>
-        <div class="hp-proj-voice">&ldquo;Built at 2am after a CTF I almost lost.&rdquo;</div>
-        <div class="hp-proj-strip deployed"><div class="hps-dot"></div>DEPLOYED</div>
-        <div class="hp-proj-terminal">
-          <div class="pt-line pt-prompt">$ python recon.py --target demo.com</div>
-          <div class="pt-line pt-output">[+] 22/tcp open &mdash; OpenSSH 8.9</div>
-          <div class="pt-line pt-output">[+] CVE-2021-44228 &mdash; CRITICAL</div>
-          <div class="pt-line pt-warn">[!] Generating report...</div>
-          <div class="pt-line pt-output">[&#10003;] report_demo.html saved</div>
-        </div>
-      </div>
-      <div class="hp-proj reveal">
-        <div class="hp-proj-title">CTF Arsenal</div>
-        <div class="hp-proj-stack">PYTHON &middot; CRYPTO &middot; STEGO</div>
-        <div class="hp-proj-desc">Personal CTF toolkit. Steganography, cipher decryption, hash cracking automation.</div>
-        <div class="hp-proj-tags"><span class="hp-proj-tag">PYTHON</span><span class="hp-proj-tag">CRYPTO</span></div>
-        <div class="hp-proj-voice">&ldquo;400+ challenges. This won half of them.&rdquo;</div>
-        <div class="hp-proj-strip deployed"><div class="hps-dot"></div>DEPLOYED</div>
-        <div class="hp-proj-terminal">
-          <div class="pt-line pt-prompt">$ python ctf.py --mode stego</div>
-          <div class="pt-line pt-output">[+] LSB layer extracted</div>
-          <div class="pt-line pt-output">[+] Hidden data: 2847 bytes</div>
-          <div class="pt-line pt-warn">[!] XOR decoding...</div>
-          <div class="pt-line pt-output">[&#10003;] flag{h1dd3n_1n_pl41n_s1ght}</div>
-        </div>
-      </div>
-      <div class="hp-proj reveal">
-        <div class="hp-proj-title">Web Vulnerability Scanner</div>
-        <div class="hp-proj-stack">PYTHON &middot; OWASP</div>
-        <div class="hp-proj-desc">OWASP Top 10. SQLi, XSS, open redirects, security header analysis.</div>
-        <div class="hp-proj-tags"><span class="hp-proj-tag">PYTHON</span><span class="hp-proj-tag">OWASP</span></div>
-        <div class="hp-proj-voice">&ldquo;Finds what automated scanners miss.&rdquo;</div>
+        <div class="hp-proj-stack">PYTHON &middot; NMAP &middot; RED TEAM</div>
+        <div class="hp-proj-desc">Automated recon tool to identify initial footholds and vulnerable services on a target network. Port scanning, service fingerprinting, and vuln surface mapping.</div>
+        <div class="hp-proj-tags"><span class="hp-proj-tag">PYTHON</span><span class="hp-proj-tag">NMAP</span><span class="hp-proj-tag">RECON</span></div>
         <div class="hp-proj-strip wip"><div class="hps-dot"></div>IN PROGRESS</div>
         <div class="hp-proj-terminal">
-          <div class="pt-line pt-prompt">$ python scanner.py --url target</div>
-          <div class="pt-line pt-warn">[!] SQLi vector: /login</div>
-          <div class="pt-line pt-warn">[!] XSS found: /search?q=</div>
-          <div class="pt-line pt-output">[+] Security headers: missing 4</div>
-          <div class="pt-line pt-output">[&#10003;] 7 vulnerabilities logged</div>
-        </div>
-      </div>
-      <div class="hp-proj reveal">
-        <div class="hp-proj-title">OSINT Footprint Mapper</div>
-        <div class="hp-proj-stack">PYTHON &middot; DNS &middot; RECON</div>
-        <div class="hp-proj-desc">Domain intelligence. Subdomain enum, email leaks, WHOIS correlation.</div>
-        <div class="hp-proj-tags"><span class="hp-proj-tag">OSINT</span><span class="hp-proj-tag">DNS</span></div>
-        <div class="hp-proj-voice">&ldquo;You&apos;d be surprised what&apos;s already public.&rdquo;</div>
-        <div class="hp-proj-strip deployed"><div class="hps-dot"></div>DEPLOYED</div>
-        <div class="hp-proj-terminal">
-          <div class="pt-line pt-prompt">$ python osint.py -d target.com</div>
-          <div class="pt-line pt-output">[+] 14 subdomains found</div>
-          <div class="pt-line pt-output">[+] 3 email leaks detected</div>
-          <div class="pt-line pt-warn">[!] Exposed admin: /wp-admin</div>
-          <div class="pt-line pt-output">[&#10003;] Full report generated</div>
+          <div class="pt-line pt-prompt">$ python recon.py --target 192.168.1.0/24</div>
+          <div class="pt-line pt-output">[+] 22/tcp open &mdash; SSH</div>
+          <div class="pt-line pt-output">[+] 445/tcp open &mdash; SMB</div>
+          <div class="pt-line pt-warn">[!] Vulnerable service detected</div>
+          <div class="pt-line pt-output">[&#10003;] Foothold surface mapped</div>
         </div>
       </div>
     </div>
@@ -1006,33 +957,19 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
   <div class="hp-section" id="sec-writeups">
     <div class="hp-sec-tag">// 04 &mdash; FIELD NOTES</div>
     <div class="hp-sec-title">CTF WRITE<span>UPS</span></div>
-    <div class="ctf-filter">
-      <button class="ctf-tag-btn active" onclick="filterCTF('ALL',this)">ALL</button>
-      <button class="ctf-tag-btn" onclick="filterCTF('WEB',this)">WEB</button>
-      <button class="ctf-tag-btn" onclick="filterCTF('CRYPTO',this)">CRYPTO</button>
-      <button class="ctf-tag-btn" onclick="filterCTF('FORENSICS',this)">FORENSICS</button>
-      <button class="ctf-tag-btn" onclick="filterCTF('REVERSE',this)">REVERSE</button>
-    </div>
+
     <div class="hp-writeups">
-      <div class="hp-wu reveal" data-tags="WEB SQLI">
-        <div><div class="hp-wu-title">HackTheBox &mdash; SQL Injection (Medium)</div><div class="hp-wu-desc">UNION-based SQLi via login. Full DB dump. Admin access.</div>
-        <div class="hp-wu-meta"><div class="hp-wu-diff med">// MEDIUM</div><div class="hp-wu-date">2024</div></div></div>
-        <div class="hp-wu-tags"><span class="hp-wu-tag">WEB</span><span class="hp-wu-tag">SQLI</span></div>
-      </div>
-      <div class="hp-wu reveal" data-tags="CRYPTO">
-        <div><div class="hp-wu-title">PicoCTF &mdash; RSA Crypto</div><div class="hp-wu-desc">Wiener&apos;s attack on small private exponent. Flag captured.</div>
-        <div class="hp-wu-meta"><div class="hp-wu-diff med">// MEDIUM</div><div class="hp-wu-date">2024</div></div></div>
-        <div class="hp-wu-tags"><span class="hp-wu-tag">CRYPTO</span></div>
-      </div>
-      <div class="hp-wu reveal" data-tags="FORENSICS">
-        <div><div class="hp-wu-title">TryHackMe &mdash; Memory Forensics</div><div class="hp-wu-desc">Volatility. LSASS dump. Plaintext credentials extracted.</div>
-        <div class="hp-wu-meta"><div class="hp-wu-diff hard">// HARD</div><div class="hp-wu-date">2024</div></div></div>
-        <div class="hp-wu-tags"><span class="hp-wu-tag">FORENSICS</span></div>
-      </div>
-      <div class="hp-wu reveal" data-tags="REVERSE">
-        <div><div class="hp-wu-title">Reverse Engineering &mdash; Binary</div><div class="hp-wu-desc">Ghidra. XOR key extracted. Hidden flag decoded.</div>
-        <div class="hp-wu-meta"><div class="hp-wu-diff hard">// HARD</div><div class="hp-wu-date">2024</div></div></div>
-        <div class="hp-wu-tags"><span class="hp-wu-tag">REVERSE</span></div>
+      <div class="reveal" style="border:1px solid rgba(255,0,0,.08);padding:48px;text-align:center;width:100%;">
+        <div style="font-family:var(--vt);font-size:clamp(28px,4vw,48px);color:rgba(255,255,255,.12);letter-spacing:4px;margin-bottom:16px;">// LOADING</div>
+        <div style="font-size:10px;letter-spacing:6px;color:rgba(255,0,0,.35);margin-bottom:10px;">WRITEUPS IN PROGRESS</div>
+        <div style="font-family:var(--vt);font-size:clamp(14px,2vw,22px);color:rgba(255,255,255,.22);line-height:2;max-width:460px;margin:0 auto;">
+          60+ labs completed.<br>
+          The writeups are being documented.<br>
+          <span style="color:rgba(255,0,0,.4);">Check back soon.</span>
+        </div>
+        <div style="margin-top:28px;width:200px;height:1px;background:rgba(255,255,255,.04);margin-left:auto;margin-right:auto;position:relative;overflow:hidden;">
+          <div style="position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,0,0,.4),transparent);animation:scrollPulse 2s ease-in-out infinite;"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -1055,12 +992,12 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     <div class="hp-contact-title">GET IN TOUCH</div>
     <div class="hp-contact-quote">&ldquo;I respond to everyone. Even recruiters.&rdquo;</div>
     <div class="hp-email-wrap">
-      <a href="mailto:your@email.com" class="hp-email">your@email.com</a>
+      <a href="mailto:chandraxsekhar007@gmail.com" class="hp-email">chandraxsekhar007@gmail.com</a>
       <button class="hp-copy-btn" id="copyEmailBtn" onclick="copyEmail()">[ COPY ]</button>
     </div>
     <div class="hp-links">
-      <a href="https://github.com/yourusername" class="hp-link" target="_blank" rel="noopener">GitHub<div class="hp-link-tip">github.com/yourusername</div></a>
-      <a href="https://linkedin.com/in/yourname" class="hp-link" target="_blank" rel="noopener">LinkedIn<div class="hp-link-tip">linkedin.com/in/yourname</div></a>
+      <a href="https://github.com/chandraxsekhar007" class="hp-link" target="_blank" rel="noopener">GitHub<div class="hp-link-tip">github.com/chandraxsekhar007</div></a>
+      <a href="https://linkedin.com/in/r-chandra-shekar-a620aa252" class="hp-link" target="_blank" rel="noopener">LinkedIn<div class="hp-link-tip">linkedin.com/in/r-chandra-shekar-a620aa252</div></a>
       <a href="https://tryhackme.com/p/youralias" class="hp-link" target="_blank" rel="noopener">TryHackMe<div class="hp-link-tip">tryhackme.com/p/youralias</div></a>
     </div>
     <button class="hp-resume-btn" onclick="openResume();playSfx('hover')"><div class="hp-resume-btn-dot"></div>[ DOWNLOAD RESUME ]</button>
@@ -1106,13 +1043,13 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
       <div class="od-txt">You explored everything.<br>You decoded the fragments. You didn&apos;t stop.<br><br><span class="r">That is exactly the kind of mind I want to work with.</span></div>
       <div class="od-div"></div>
       <div class="od-lbl">// THE REAL STORY</div>
-      <div class="od-txt">I was 16 when I first opened a terminal.<br>Not to do homework. To understand.<br><br>Every system has a door. Every lock was made by a human.<br><span class="g">Humans make mistakes. I find them.</span></div>
+      <div class="od-txt">I&apos;m just a kid who thought he could save the world.<br>Maybe I can&apos;t.<br><br>I don&apos;t have superpowers. But I have this &mdash;<br>the ability to break into anything a human built.<br><span class="g">And humans built everything.</span></div>
       <div class="od-div"></div>
       <div class="od-lbl">// DIRECT LINE</div>
       <div class="od-cbox">
-        <a href="mailto:your@email.com" class="od-email">your@email.com</a>
+        <a href="mailto:chandraxsekhar007@gmail.com" class="od-email">chandraxsekhar007@gmail.com</a>
         <div style="font-size:9px;color:rgba(0,255,65,.28);letter-spacing:3px;">Only people who solve the CTF see this.</div>
-        <div class="od-links"><a href="https://github.com/yourusername" class="od-link" target="_blank">GitHub</a><a href="https://linkedin.com/in/yourname" class="od-link" target="_blank">LinkedIn</a><a href="https://tryhackme.com/p/youralias" class="od-link" target="_blank">TryHackMe</a></div>
+        <div class="od-links"><a href="https://github.com/chandraxsekhar007" class="od-link" target="_blank">GitHub</a><a href="https://linkedin.com/in/r-chandra-shekar-a620aa252" class="od-link" target="_blank">LinkedIn</a><a href="https://tryhackme.com/p/youralias" class="od-link" target="_blank">TryHackMe</a></div>
       </div>
     </div>
     <button class="od-close-btn" onclick="document.getElementById('opDossier').classList.remove('show')">[ CLOSE ]</button>
@@ -1146,9 +1083,9 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
         <div class="rm-role">CYBERSECURITY STUDENT &middot; PENETRATION TESTER &middot; CTF PLAYER</div>
       </div>
       <div class="rm-contact">
-        your@email.com<br>
-        github.com/yourusername<br>
-        linkedin.com/in/yourname<br>
+        chandraxsekhar007@gmail.com<br>
+        github.com/chandraxsekhar007<br>
+        linkedin.com/in/r-chandra-shekar-a620aa252<br>
         tryhackme.com/p/youralias
       </div>
     </div>
@@ -1160,54 +1097,40 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
       <div class="rm-section-title">// EDUCATION</div>
       <div class="rm-item">
         <div class="rm-item-title">B.Tech — Computer Science</div>
-        <div class="rm-item-sub">[YOUR UNIVERSITY] &middot; 2022 — PRESENT</div>
+        <div class="rm-item-sub">KL UNIVERSITY &middot; 2021 — 2025</div>
         <div class="rm-item-desc">Specialization in Cybersecurity. Relevant coursework: Computer Networks, Cryptography, Operating Systems, Data Structures.</div>
       </div>
     </div>
     <div class="rm-section">
       <div class="rm-section-title">// CERTIFICATIONS</div>
       <div class="rm-item">
-        <div class="rm-item-title">Google Cybersecurity Certificate</div>
-        <div class="rm-item-sub">COURSERA &middot; 2024 &middot; COMPLETED</div>
+        <div class="rm-item-title">eJPT &mdash; eLearnSecurity Junior Penetration Tester</div>
+        <div class="rm-item-sub">eLEARNSECURITY &middot; OCTOBER 18, 2025 &middot; CERTIFIED</div>
       </div>
       <div class="rm-item">
-        <div class="rm-item-title">TryHackMe — Top 5% Global</div>
-        <div class="rm-item-sub">400+ ROOMS &middot; OFFENSIVE SECURITY PATH &middot; 2023–2024</div>
+        <div class="rm-item-title">PNPT &mdash; Practical Network Penetration Tester</div>
+        <div class="rm-item-sub">TCM SECURITY &middot; MAY 16, 2026 &middot; CERTIFIED</div>
       </div>
       <div class="rm-item">
-        <div class="rm-item-title">CompTIA Security+</div>
-        <div class="rm-item-sub">IN PROGRESS &middot; EXPECTED 2025</div>
+        <div class="rm-item-title">TryHackMe &mdash; Red Teamer Path</div>
+        <div class="rm-item-sub">COMPLETE &middot; ZERO TO AD ADVANCED &middot; 2025</div>
       </div>
     </div>
     <div class="rm-section">
       <div class="rm-section-title">// PROJECTS</div>
       <div class="rm-item">
         <div class="rm-item-title">Network Reconnaissance Tool</div>
-        <div class="rm-item-sub">PYTHON &middot; NMAP &middot; CVE INTEGRATION</div>
-        <div class="rm-item-desc">Automated scanner with live host detection, port scanning, CVE cross-referencing and HTML report generation.</div>
+        <div class="rm-item-sub">PYTHON &middot; NMAP &middot; RED TEAM &middot; IN PROGRESS</div>
+        <div class="rm-item-desc">Automated recon tool to identify initial footholds and vulnerable services. Port scanning, service fingerprinting, and vulnerability surface mapping.</div>
       </div>
-      <div class="rm-item">
-        <div class="rm-item-title">CTF Arsenal</div>
-        <div class="rm-item-sub">PYTHON &middot; CRYPTOGRAPHY &middot; STEGANOGRAPHY</div>
-        <div class="rm-item-desc">Personal CTF toolkit used across 400+ challenges. Steganography extraction, cipher decryption, hash cracking automation.</div>
-      </div>
-      <div class="rm-item">
-        <div class="rm-item-title">Web Vulnerability Scanner</div>
-        <div class="rm-item-sub">PYTHON &middot; OWASP TOP 10</div>
-        <div class="rm-item-desc">Detects SQLi, XSS, open redirects and missing security headers. Finds issues automated scanners miss.</div>
-      </div>
-      <div class="rm-item">
-        <div class="rm-item-title">OSINT Footprint Mapper</div>
-        <div class="rm-item-sub">PYTHON &middot; DNS &middot; RECON</div>
-        <div class="rm-item-desc">Domain intelligence tool for subdomain enumeration, email leak detection and WHOIS correlation.</div>
-      </div>
+
     </div>
     <div class="rm-section">
       <div class="rm-section-title">// TECHNICAL SKILLS</div>
       <div class="rm-skills">
-        <span class="rm-skill-tag">Python</span><span class="rm-skill-tag">Bash</span><span class="rm-skill-tag">JavaScript</span><span class="rm-skill-tag">SQL</span><span class="rm-skill-tag">C</span>
-        <span class="rm-skill-tag">Nmap</span><span class="rm-skill-tag">Burp Suite</span><span class="rm-skill-tag">Wireshark</span><span class="rm-skill-tag">Metasploit</span><span class="rm-skill-tag">Ghidra</span><span class="rm-skill-tag">Volatility</span><span class="rm-skill-tag">Kali Linux</span>
-        <span class="rm-skill-tag">Penetration Testing</span><span class="rm-skill-tag">OSINT</span><span class="rm-skill-tag">Memory Forensics</span><span class="rm-skill-tag">Reverse Engineering</span><span class="rm-skill-tag">OWASP Top 10</span>
+        <span class="rm-skill-tag">Nmap</span><span class="rm-skill-tag">Burp Suite</span><span class="rm-skill-tag">Metasploit</span><span class="rm-skill-tag">Ghidra</span><span class="rm-skill-tag">Kali Linux</span>
+        <span class="rm-skill-tag">BloodHound</span><span class="rm-skill-tag">Mimikatz</span><span class="rm-skill-tag">Impacket</span><span class="rm-skill-tag">CrackMapExec</span><span class="rm-skill-tag">Evil-WinRM</span><span class="rm-skill-tag">Rubeus</span>
+        <span class="rm-skill-tag">Active Directory Attacks</span><span class="rm-skill-tag">Lateral Movement</span><span class="rm-skill-tag">Privilege Escalation</span><span class="rm-skill-tag">Penetration Testing</span><span class="rm-skill-tag">OSINT</span>
       </div>
     </div>
     <div class="rm-section">
@@ -1246,17 +1169,17 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     </div>
     <div class="rm-divider"></div>
     <div class="rm-actions">
-      <button class="rm-btn rm-btn-email" onclick="window.location.href='mailto:your@email.com'">
-        <span class="rm-btn-icon">&#9993;</span>your@email.com
+      <button class="rm-btn rm-btn-email" onclick="window.location.href='mailto:chandraxsekhar007@gmail.com'">
+        <span class="rm-btn-icon">&#9993;</span>chandraxsekhar007@gmail.com
       </button>
-      <button class="rm-btn rm-btn-linkedin" onclick="window.open('https://linkedin.com/in/yourname','_blank')">
-        <span class="rm-btn-icon">&#9670;</span>linkedin.com/in/yourname
+      <button class="rm-btn rm-btn-linkedin" onclick="window.open('https://linkedin.com/in/r-chandra-shekar-a620aa252','_blank')">
+        <span class="rm-btn-icon">&#9670;</span>linkedin.com/in/r-chandra-shekar-a620aa252
       </button>
       <button class="rm-btn rm-btn-resume" onclick="openResume()">
         <span class="rm-btn-icon">&#8595;</span>DOWNLOAD RESUME
       </button>
-      <button class="rm-btn rm-btn-github" onclick="window.open('https://github.com/yourusername','_blank')">
-        <span class="rm-btn-icon">&#9654;</span>github.com/yourusername
+      <button class="rm-btn rm-btn-github" onclick="window.open('https://github.com/chandraxsekhar007','_blank')">
+        <span class="rm-btn-icon">&#9654;</span>github.com/chandraxsekhar007
       </button>
     </div>
     <div class="rm-divider"></div>
@@ -1351,13 +1274,13 @@ async function newsConfirm(){const nc=document.getElementById('newsChannel');con
 function showHeroPage(){document.getElementById('heroPage').classList.add('show');document.body.style.overflow='auto';document.title='fsociety \u2014 anonymous';initEggs();initWatched();initGhost();initInteractivity();try{const amb=document.getElementById('audioAmbient');if(amb&&amb.src&&!amb.src.endsWith('undefined')){amb.volume=0.06;amb.play().catch(()=>{});}}catch(e){}}
 function initScrollBar(){const bar=document.getElementById('scrollBar');if(!bar)return;window.addEventListener('scroll',()=>{const s=document.documentElement.scrollTop||document.body.scrollTop;const h=document.documentElement.scrollHeight-document.documentElement.clientHeight;bar.style.width=(s/h*100).toFixed(1)+'%';},{passive:true});}
 function initReveal(){const els=document.querySelectorAll('.reveal');const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('revealed');obs.unobserve(e.target);}});},{threshold:.12});els.forEach(el=>obs.observe(el));}
-function initCounters(){const statEls=document.querySelectorAll('.hp-stat-num');const data=[{end:5,prefix:'Top ',suffix:'%'},{end:400,prefix:'',suffix:'+'},{end:4,prefix:'',suffix:''},{end:3,prefix:'',suffix:''}];const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(!e.isIntersecting)return;const idx=[...statEls].indexOf(e.target);if(idx<0||idx>=data.length)return;const d=data[idx];e.target.classList.add('counting');let cur=0;const dur=1200,step=16,inc=d.end/(dur/step);const timer=setInterval(()=>{cur=Math.min(cur+inc,d.end);e.target.textContent=d.prefix+Math.floor(cur)+d.suffix;if(cur>=d.end){clearInterval(timer);e.target.classList.remove('counting');e.target.textContent=d.prefix+d.end+d.suffix;}},step);obs.unobserve(e.target);});},{threshold:.5});statEls.forEach(el=>obs.observe(el));}
-const SKILL_TIPS={'Python':'python3 exploit.py --target','Bash':'chmod +x recon.sh && ./recon.sh','JavaScript':"fetch('/api/admin',{method:'DELETE'})",'SQL':"SELECT * FROM users WHERE '1'='1'",'C':'gcc -o shell rev.c && ./shell','Nmap':'nmap -sV -sC -p- -T4 target','Burp Suite':'Proxy \u2192 Intercept \u2192 Modify \u2192 Fwd','Wireshark':'tcp.flags.syn==1 && !tcp.flags.ack','Metasploit':'use exploit/multi/handler','Ghidra':'Analyze \u2192 Find Main \u2192 Decompile','Volatility':'vol.py -f mem.raw pslist','Kali Linux':'apt update && apt full-upgrade','OWASP Top 10':'A01: Broken Access Control','Penetration Testing':'Recon\u2192Scan\u2192Exploit\u2192Report','Network Analysis':'tcpdump -i eth0 -w out.pcap','OSINT':'theHarvester -d target.com -b all','Memory Forensics':'vol.py malfind | grep -i dll','Reverse Engineering':'strings bin | grep -i flag'};
+function initCounters(){const statEls=document.querySelectorAll('.hp-stat-num');const data=[{end:60,prefix:'',suffix:'+'},{end:0,prefix:'',suffix:'',skip:true},{end:3,prefix:'',suffix:''}];const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(!e.isIntersecting)return;const idx=[...statEls].indexOf(e.target);if(idx<0||idx>=data.length)return;const d=data[idx];e.target.classList.add('counting');let cur=0;const dur=1200,step=16,inc=d.end/(dur/step);const timer=setInterval(()=>{cur=Math.min(cur+inc,d.end);e.target.textContent=d.prefix+Math.floor(cur)+d.suffix;if(cur>=d.end){clearInterval(timer);e.target.classList.remove('counting');e.target.textContent=d.prefix+d.end+d.suffix;}},step);obs.unobserve(e.target);});},{threshold:.5});statEls.forEach(el=>obs.observe(el));}
+const SKILL_TIPS={'Nmap':'nmap -sV -sC -p- -T4 target','Burp Suite':'Proxy → Intercept → Modify → Fwd','Metasploit':'use exploit/multi/handler','Ghidra':'Analyze → Find Main → Decompile','Kali Linux':'apt update && apt full-upgrade','BloodHound':'SharpHound → Ingestor → Graph AD','Mimikatz':'sekurlsa::logonpasswords','Impacket':'secretsdump.py domain/user@target','CrackMapExec':'cme smb target -u user -p pass','Evil-WinRM':'evil-winrm -i target -u admin','Rubeus':'Rubeus.exe kerberoast /outfile:hashes','Active Directory Attacks':'Enumerate → Exploit → Persist','Lateral Movement':'Pass-the-Hash → PTT → Pivot','Privilege Escalation':'winPEAS / linPEAS → Exploit','Penetration Testing':'Recon→Scan→Exploit→Report','OSINT':'theHarvester -d target.com -b all'};
 function initSkillTips(){document.querySelectorAll('.hp-skill').forEach(el=>{const name=el.textContent.trim();const tip=SKILL_TIPS[name];if(!tip)return;const span=document.createElement('span');span.className='sk-tip';span.textContent=tip;el.appendChild(span);});}
-const SKILL_LEVELS={'Python':90,'Bash':85,'JavaScript':70,'SQL':68,'C':60,'Nmap':88,'Burp Suite':82,'Wireshark':76,'Metasploit':72,'Ghidra':65,'Volatility':62,'Kali Linux':80,'OWASP Top 10':82,'Penetration Testing':80,'Network Analysis':76,'OSINT':78,'Memory Forensics':70,'Reverse Engineering':65};
+const SKILL_LEVELS={'Nmap':88,'Burp Suite':82,'Metasploit':80,'Ghidra':65,'Kali Linux':87,'BloodHound':82,'Mimikatz':84,'Impacket':76,'CrackMapExec':80,'Evil-WinRM':78,'Rubeus':74,'Active Directory Attacks':86,'Lateral Movement':82,'Privilege Escalation':84,'Penetration Testing':82,'OSINT':76};
 function initSkillFills(){document.querySelectorAll('.hp-skill').forEach(el=>{const name=el.textContent.trim();const level=SKILL_LEVELS[name];if(!level)return;const bg=document.createElement('div');bg.className='hp-skill-bg';const lbl=document.createElement('span');lbl.className='hp-skill-label';lbl.textContent=name;const existing=el.getAttribute('onmouseenter');el.innerHTML='';el.appendChild(bg);el.appendChild(lbl);if(existing)el.setAttribute('onmouseenter',existing);const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){bg.style.transform=`scaleX(${level/100})`;obs.unobserve(el);}});},{threshold:.1});obs.observe(el);});}
 function filterCTF(tag,btn){document.querySelectorAll('.ctf-tag-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.hp-wu').forEach(wu=>{const tags=wu.dataset.tags||'';if(tag==='ALL'||tags.includes(tag)){wu.classList.remove('hidden');}else{wu.classList.add('hidden');}});playSfx('hover');}
-function copyEmail(){const email='your@email.com';navigator.clipboard.writeText(email).then(()=>{const btn=document.getElementById('copyEmailBtn');if(!btn)return;btn.textContent='[ COPIED \u2713 ]';btn.classList.add('copied');playSfx('success');setTimeout(()=>{btn.textContent='[ COPY ]';btn.classList.remove('copied');},2200);}).catch(()=>{});}
+function copyEmail(){const email='chandraxsekhar007@gmail.com';navigator.clipboard.writeText(email).then(()=>{const btn=document.getElementById('copyEmailBtn');if(!btn)return;btn.textContent='[ COPIED \u2713 ]';btn.classList.add('copied');playSfx('success');setTimeout(()=>{btn.textContent='[ COPY ]';btn.classList.remove('copied');},2200);}).catch(()=>{});}
 function initRightClick(){const menu=document.getElementById('rcMenu');if(!menu)return;document.addEventListener('contextmenu',e=>{e.preventDefault();menu.style.left=Math.min(e.clientX,window.innerWidth-220)+'px';menu.style.top=Math.min(e.clientY,window.innerHeight-160)+'px';menu.classList.add('show');playSfx('hover');});document.addEventListener('click',e=>{if(!menu.contains(e.target))menu.classList.remove('show');});document.addEventListener('keydown',e=>{if(e.key==='Escape')menu.classList.remove('show');});}
 function initConsole(){console.log('%c// hello, friend.','font-size:22px;font-family:monospace;color:#ff0000;font-weight:bold;');console.log('%cyou opened the console. i respect that.','font-size:12px;font-family:monospace;color:#666;');console.log('%c ');console.log('%ctry the terminal on the page.','font-size:12px;font-family:monospace;color:#00ff41;');console.log('%c// type fsociety() in this console if you dare.','font-size:12px;font-family:monospace;color:#00ff41;');window.fsociety=()=>{console.log('%c// nice. you actually did it.','font-size:14px;font-family:monospace;color:#ff0000;');if(typeof triggerFs==='function')triggerFs();};}
 const HP_SECTIONS=[{id:'sec-hero',label:'HERO'},{id:'sec-identity',label:'IDENTITY'},{id:'sec-skills',label:'SKILLS'},{id:'sec-projects',label:'PROJECTS'},{id:'sec-writeups',label:'WRITEUPS'},{id:'sec-certs',label:'CERTS'},{id:'sec-contact',label:'CONTACT'}];
@@ -1367,7 +1290,32 @@ let heroAnimPlayed=false;
 function initEntranceAnim(){if(heroAnimPlayed)return;heroAnimPlayed=true;const hero=document.getElementById('sec-hero');if(!hero)return;setTimeout(()=>hero.classList.add('anim-go'),120);}
 function initFavicon(){const cv=document.createElement('canvas');cv.width=32;cv.height=32;const g=cv.getContext('2d');g.fillStyle='#000';g.fillRect(0,0,32,32);g.fillStyle='rgba(255,0,0,.1)';g.fillRect(0,0,32,32);g.strokeStyle='rgba(255,0,0,.42)';g.lineWidth=1.5;g.strokeRect(2,2,28,28);g.fillStyle='#ff0000';g.font="bold 12px 'Share Tech Mono',monospace";g.textAlign='center';g.textBaseline='middle';g.fillText('fs',16,17);const link=document.querySelector("link[rel*='icon']")||document.createElement('link');link.rel='icon';link.type='image/png';link.href=cv.toDataURL('image/png');document.head.appendChild(link);}
 function initMobileFixes(){const touch='ontouchstart' in window||navigator.maxTouchPoints>0;if(!touch)return;['cur','cdot','ghostCur'].forEach(id=>{const el=document.getElementById(id);if(el)el.style.display='none';});document.body.style.cursor='auto';}
-const CERT_JOURNEY=[{id:'btech',year:'2022',title:'B.Tech \u2014 [Your University]',sub:'Computer Science \xb7 Cybersecurity Focus',status:'cur',statusTxt:'ACTIVE',note:'"First time I opened a terminal \u2014 not for homework. To understand why the machine does what it does. That question never left."',skills:[{name:'Computer Networks',pct:85},{name:'Linux Fundamentals',pct:90},{name:'Python / C Programming',pct:80},{name:'Cryptography Basics',pct:70}],unlocked:['Linux','Python','C','Networking','Bash']},{id:'ctf',year:'2023',title:'First CTF \u2014 TryHackMe Begins',sub:'Self-directed \xb7 400+ challenges',status:'done',statusTxt:'COMPLETE',note:'"Lost the first one. Came back the next day. Built my first tool at 2am after a CTF I almost lost. Never stopped."',skills:[{name:'Penetration Testing',pct:78},{name:'Web Exploitation',pct:75},{name:'OSINT Techniques',pct:72},{name:'Cryptography',pct:68}],unlocked:['Nmap','Burp Suite','Wireshark','CTF Mindset']},{id:'google',year:'2024',title:'Google Cybersecurity Certificate',sub:'Coursera \xb7 6 months \xb7 Completed',status:'done',statusTxt:'COMPLETE',note:'"Structured learning finally put names to things I already knew intuitively. IDS and SIEM made everything click together."',skills:[{name:'SIEM & Log Analysis',pct:82},{name:'Incident Response',pct:76},{name:'Risk Assessment',pct:71},{name:'Python for Security',pct:88}],unlocked:['SIEM','Splunk','Chronicle','IR Frameworks']},{id:'thm',year:'2024',title:'TryHackMe \u2014 Top 5% Global',sub:'Offensive Security \xb7 400+ rooms',status:'done',statusTxt:'COMPLETE',note:'"Top 5% globally. Not the smartest in the room \u2014 just stayed the longest. Curiosity is the only cheat code that works."',skills:[{name:'Exploitation Techniques',pct:85},{name:'Privilege Escalation',pct:80},{name:'Memory Forensics',pct:74},{name:'Reverse Engineering',pct:70}],unlocked:['Metasploit','Ghidra','Volatility','John the Ripper']},{id:'secplus',year:'2025',title:'CompTIA Security+',sub:'In Progress \xb7 Expected 2025',status:'wip',statusTxt:'IN PROGRESS',progress:65,note:'"Bridging practical field skills with formal certification. The exam is the easy part \u2014 the real work was already done."',skills:[{name:'Threat Intelligence',pct:72},{name:'Compliance & GRC',pct:65},{name:'Cloud Security',pct:60},{name:'Advanced Cryptography',pct:75}],unlocked:['GRC Frameworks','NIST','ISO 27001']}];
+const CERT_JOURNEY=[
+  {id:'btech',year:'2021',title:'B.Tech — KL University',sub:'Computer Science · Cybersecurity Focus · 2021–2025',status:'done',statusTxt:'COMPLETE',
+   note:'"First time I sat in front of a terminal — not for class. To understand why machines do what they do. That question never left."',
+   skills:[{name:'Computer Networks',pct:85},{name:'Linux Fundamentals',pct:80},{name:'Cryptography Basics',pct:70},{name:'Python / C Basics',pct:60}],
+   unlocked:['Linux','Networking','Cryptography','OS Fundamentals']},
+
+  {id:'thm',year:'2025',title:'TryHackMe — Red Teamer Path',sub:'Self-directed · Zero to AD Advanced · 3–4 months',status:'done',statusTxt:'COMPLETE',
+   note:'"Started with zero. YouTube for networking basics. First TryHackMe annual subscription. Completed the entire Red Teamer path in 3–4 months — from absolute basics to Active Directory Advanced."',
+   skills:[{name:'Active Directory',pct:82},{name:'Privilege Escalation',pct:78},{name:'Network Exploitation',pct:75},{name:'Lateral Movement',pct:72}],
+   unlocked:['BloodHound','Mimikatz','CrackMapExec','Evil-WinRM','Rubeus']},
+
+  {id:'htb',year:'2025',title:'HTB Labs + AD Deep Dive',sub:'HackTheBox · Microsoft Docs · Real Challenges',status:'done',statusTxt:'COMPLETE',
+   note:'"After THM, I needed real challenges. Dove into HTB labs and Microsoft AD documentation. No guides. No hand-holding. Just the lab and what I already knew."',
+   skills:[{name:'Active Directory Attacks',pct:86},{name:'OSINT Techniques',pct:76},{name:'Full Exploitation Chain',pct:80},{name:'Persistence',pct:72}],
+   unlocked:['Impacket','Nmap Advanced','BloodHound Attack Paths','AD Exploitation']},
+
+  {id:'ejpt',year:'2025',title:'eJPT — Certified',sub:'eLearnSecurity · October 18, 2025',status:'done',statusTxt:'COMPLETE',
+   note:'"First cert. My own money. 2–3 months of prep. Walked in so nervous I forgot how to find an IP. Remembered the basics. Scanned. Everything clicked. Finished in half the time."',
+   skills:[{name:'Network Scanning',pct:88},{name:'Web App Testing',pct:75},{name:'Exploitation Basics',pct:82},{name:'Report Writing',pct:65}],
+   unlocked:['eJPT Certified','Nmap','Burp Suite','Metasploit']},
+
+  {id:'pnpt',year:'2026',title:'PNPT — Certified',sub:'TCM Security · May 16, 2026',status:'done',statusTxt:'COMPLETE',
+   note:'"8 months. Two attempts. Failed first on OSINT. All-nighter to fix the report on second attempt. Got the email 3 days later: passed. This exam broke my limits. Then rebuilt them."',
+   skills:[{name:'Full AD Attack Chain',pct:90},{name:'OSINT & Recon',pct:84},{name:'Pentest Reporting',pct:80},{name:'Lateral Movement',pct:88}],
+   unlocked:['PNPT Certified','Full AD Chain','Real Pentest Reporting','TCM Security']}
+];
 function initCertJourney(){const list=document.getElementById('journeyList');if(!list)return;const spine=document.createElement('div');spine.className='jt-spine';list.appendChild(spine);CERT_JOURNEY.forEach((c,i)=>{const item=document.createElement('div');item.className='jt-item';item.id='jti-'+c.id;const statusCls=c.status==='done'?'done':c.status==='wip'?'wip':'cur';item.innerHTML=`<div class="jt-node-col"><div class="jt-year">${c.year}</div><div class="jt-dot"></div>${i<CERT_JOURNEY.length-1?'<div class="jt-connector"></div>':''}</div><div class="jt-info"><div class="jt-name">${c.title}</div><div class="jt-sub">${c.sub}</div><div class="jt-badge ${statusCls}"><div class="jt-badge-dot"></div>${c.statusTxt}</div>${c.status==='wip'?`<div class="jt-wip-wrap"><div class="jt-wip-bar"><div class="jt-wip-fill" style="width:${c.progress}%"></div></div></div>`:''}</div>`;item.addEventListener('click',()=>openCertDetail(c.id));list.appendChild(item);});}
 function openCertDetail(id){const c=CERT_JOURNEY.find(x=>x.id===id);if(!c)return;document.querySelectorAll('.jt-item').forEach(el=>el.classList.remove('active'));document.getElementById('jti-'+id)?.classList.add('active');playSfx('hover');const empty=document.getElementById('journeyEmpty');const detail=document.getElementById('journeyDetail');if(empty)empty.style.display='none';detail.classList.remove('open');void detail.offsetWidth;const unlocked=c.unlocked.map((u,i)=>`<div class="jd-u-tag" style="animation:fadeIn .3s ${i*.08+.5}s ease both;opacity:0;animation-fill-mode:both;">${u}</div>`).join('');const skills=c.skills.map(s=>`<div class="jd-skill-row"><div class="jd-skill-top"><span>${s.name}</span><span class="jd-skill-pct">${s.pct}%</span></div><div class="jd-skill-bar"><div class="jd-skill-fill" data-pct="${s.pct}"></div></div></div>`).join('');detail.innerHTML=`<div style="position:relative;"><div class="jd-year">${c.year}</div><div class="jd-tag">// ${c.statusTxt}</div><div class="jd-title">${c.title}</div><div class="jd-sub">${c.sub}</div><div class="jd-divider"></div><div class="jd-lbl">// FIELD NOTE</div><div class="jd-note">${c.note}</div><div class="jd-lbl">// SKILLS GAINED</div>${skills}<div class="jd-unlocked"><div class="jd-u-lbl">// TOOLS UNLOCKED</div>${unlocked}</div>${c.status==='wip'?`<div class="jd-prog-wrap"><div class="jd-lbl" style="color:rgba(255,200,0,.28);">// PROGRESS</div><div style="display:flex;align-items:center;gap:12px;"><div class="jd-prog-bar-outer"><div class="jd-prog-bar-fill" data-pct="${c.progress}"></div></div><span style="font-size:9px;color:rgba(255,200,0,.5);">${c.progress}%</span></div></div>`:''}</div>`;detail.classList.add('open');setTimeout(()=>{detail.querySelectorAll('.jd-skill-fill').forEach(el=>{el.style.width=el.dataset.pct+'%';});const prog=detail.querySelector('.jd-prog-bar-fill');if(prog)prog.style.width=prog.dataset.pct+'%';},150);}
 const FLAG1_HASH='PASTE_F1_HASH_HERE';
@@ -1382,7 +1330,7 @@ function showF1(){document.getElementById('flagReveal').classList.add('show');pl
 function initInteractivity(){initScrollBar();initReveal();initCounters();initSkillTips();initSkillFills();initRightClick();initConsole();initHpNav();initHeroRain();initCertJourney();initEntranceAnim();initFavicon();initMobileFixes();}
 let termCwd='/home/elliot';const termHist=[];let histIdx=-1,rmMode=false;
 let fragFound={a:false,b:false,c:false};let kaliInited=false;
-const FS={'/home/elliot':{type:'dir',children:['about.txt','projects','writeups','resume.txt','contact','journal','.hidden','fsociety.sh']},'/home/elliot/about.txt':{type:'file',content:[{c:'r',t:'// ABOUT \u2014 anonymous'},{c:'thought',t:'"I\'m only good at one thing. Hacking."'},{c:'',t:'While others learned theory, I was in terminals.'},{c:'g',t:'Mission: understand systems by breaking them.'}]},'/home/elliot/projects':{type:'dir',children:['recon-tool.txt','ctf-arsenal.txt','vuln-scanner.txt','osint-mapper.txt']},'/home/elliot/projects/recon-tool.txt':{type:'file',content:[{c:'r',t:'// RECON TOOL'},{c:'thought',t:'"Built at 2am after a CTF I almost lost."'},{c:'',t:'Automated recon. CVE cross-reference. HTML reports.'},{c:'g',t:'STATUS: DEPLOYED'}]},'/home/elliot/projects/ctf-arsenal.txt':{type:'file',content:[{c:'r',t:'// CTF ARSENAL'},{c:'thought',t:'"400+ challenges. This tool won half of them."'},{c:'',t:'Steganography, cipher decryption, hash cracking.'},{c:'g',t:'STATUS: CLASSIFIED'}]},'/home/elliot/projects/vuln-scanner.txt':{type:'file',content:[{c:'r',t:'// VULN SCANNER'},{c:'thought',t:'"Finds what automated scanners miss."'},{c:'',t:'OWASP Top 10. SQLi, XSS, headers.'},{c:'g',t:'STATUS: IN PROGRESS'}]},'/home/elliot/projects/osint-mapper.txt':{type:'file',content:[{c:'r',t:'// OSINT MAPPER'},{c:'thought',t:'"You\'d be surprised what\'s already public."'},{c:'',t:'Subdomain enum, email leaks, WHOIS.'},{c:'g',t:'STATUS: DEPLOYED'}]},'/home/elliot/writeups':{type:'dir',children:['htb-sqli.txt','picoctf-rsa.txt','thm-forensics.txt','re-binary.txt']},'/home/elliot/writeups/htb-sqli.txt':{type:'file',content:[{c:'r',t:'// HTB \u2014 SQL Injection'},{c:'thought',t:'"The login form trusted user input."'},{c:'',t:'UNION-based SQLi. Full DB dump. Admin access.'}]},'/home/elliot/writeups/picoctf-rsa.txt':{type:'file',content:[{c:'r',t:'// PicoCTF \u2014 RSA Crypto'},{c:'thought',t:'"Small private exponent. Wiener\'s attack."'},{c:'',t:'Private key recovered. Flag captured.'}]},'/home/elliot/writeups/thm-forensics.txt':{type:'file',content:[{c:'r',t:'// THM \u2014 Memory Forensics'},{c:'thought',t:'"Everything they deleted was still in RAM."'},{c:'',t:'Volatility. LSASS dump. Credentials.'}]},'/home/elliot/writeups/re-binary.txt':{type:'file',content:[{c:'r',t:'// RE \u2014 Binary'},{c:'thought',t:'"The XOR key was hiding in .bss all along."'},{c:'',t:'Ghidra decompile. XOR extracted. Flag decoded.'}]},'/home/elliot/resume.txt':{type:'file',content:[{c:'r',t:'// RESUME \u2014 anonymous'},{c:'g',t:'B.Tech \u2014 [Your University] \u2014 [Year]'},{c:'',t:'Python \xb7 Bash \xb7 Nmap \xb7 Burp Suite \xb7 Wireshark'},{c:'',t:'TryHackMe Top 5% \xb7 Google Cybersecurity \xb7 Security+ WIP'},{c:'g',t:'Open to: Internships \xb7 Entry-level Security \xb7 CTF Teams'}]},'/home/elliot/contact':{type:'dir',children:['links.txt']},'/home/elliot/contact/links.txt':{type:'file',content:[{c:'r',t:'// CONTACT'},{c:'g',t:'Email: your@email.com'},{c:'g',t:'GitHub: github.com/yourusername'},{c:'g',t:'LinkedIn: linkedin.com/in/yourname'},{c:'thought',t:'// Or type: operative'}]},'/home/elliot/journal':{type:'dir',children:['day_001.txt','day_047.txt','day_112.txt','day_200.txt']},'/home/elliot/journal/day_001.txt':{type:'file',content:[{c:'r',t:'// DAY 001'},{c:'thought',t:'"First terminal. I was 16."'},{c:'',t:'Not to do homework. To understand.'},{c:'thought',t:'"That question never left."'}]},'/home/elliot/journal/day_047.txt':{type:'file',content:[{c:'r',t:'// DAY 047'},{c:'',t:'First CTF. Top 10%.'},{c:'thought',t:'"Not the smartest. Just stayed the longest."'}]},'/home/elliot/journal/day_112.txt':{type:'file',content:[{c:'r',t:'// DAY 112'},{c:'thought',t:'"A place where breaking things is the job."'},{c:'',t:'Where curiosity is a feature, not a liability.'},{c:'thought',t:'"I think it\'s looking at me right now."'}]},'/home/elliot/journal/day_200.txt':{type:'file',content:[{c:'r',t:'// DAY 200'},{c:'thought',t:'"I used to think I wanted to be invisible."'},{c:'',t:'But this \u2014 this portfolio \u2014 is me saying:'},{c:'g',t:'I was here. I figured things out. I\'m ready.'},{c:'thought',t:'"And I\'m just getting started."'}]},'/home/elliot/.hidden':{type:'dir',children:['readme.txt','fragment_a.txt','fragment_b.b64','fragment_c.bin']},'/home/elliot/.hidden/readme.txt':{type:'file',content:[{c:'r',t:'// THREE FRAGMENTS. ONE TRUTH.'},{c:'',t:'fragment_a.txt  \u2192 cat fragment_a.txt'},{c:'',t:'fragment_b.b64  \u2192 decode fragment_b.b64'},{c:'',t:'fragment_c.bin  \u2192 strings fragment_c.bin'},{c:'thought',t:'// Combine all three. Then: operative'}]},'/home/elliot/.hidden/fragment_a.txt':{type:'file',ctf:'a',content:[{c:'r',t:'// FRAGMENT A'},{c:'flag',t:FRAG_A},{c:'thought',t:'// Part 1 of 3.'}]},'/home/elliot/.hidden/fragment_b.b64':{type:'file',content:[{c:'r',t:'// FRAGMENT B \u2014 BASE64'},{c:'',t:'Use: decode fragment_b.b64'},{c:'dim',t:'\u2501'.repeat(21)},{c:'match',t:'MEBuM18='},{c:'thought',t:'// Decode it.'}]},'/home/elliot/.hidden/fragment_c.bin':{type:'file',content:[{c:'r',t:'// FRAGMENT C \u2014 BINARY'},{c:'',t:'Cannot display binary.'},{c:'thought',t:'// Use: strings fragment_c.bin'}]},'/home/elliot/fsociety.sh':{type:'exec',content:[{c:'r',t:'#!/bin/bash \u2014 fsociety v0.1'},{c:'dim',t:'# Operation 5/9 \u2014 full cinematic experience'},{c:'dim',t:'# Acts 1 through 4 + Operation debrief'},{c:'thought',t:'# "Once you see it, you cannot unsee it."'},{c:'g',t:'# Execute: ./fsociety.sh'}]}};
+const FS={'/home/elliot':{type:'dir',children:['about.txt','projects','writeups','resume.txt','contact','journal','.hidden','fsociety.sh']},'/home/elliot/about.txt':{type:'file',content:[{c:'r',t:'// ABOUT \u2014 anonymous'},{c:'thought',t:'"I\'m only good at one thing. Hacking."'},{c:'',t:'While others learned theory, I was in terminals.'},{c:'g',t:'Mission: understand systems by breaking them.'}]},'/home/elliot/projects':{type:'dir',children:['recon-tool.txt']},'/home/elliot/projects/recon-tool.txt':{type:'file',content:[{c:'r',t:'// NETWORK RECON TOOL'},{c:'',t:'Automated recon to find initial footholds & vulnerable services.'},{c:'',t:'Port scanning, service fingerprinting, vuln surface mapping.'},{c:'g',t:'STATUS: IN PROGRESS — PYTHON'}]},'/home/elliot/projects/ctf-arsenal.txt':{type:'file',content:[{c:'r',t:'// CTF ARSENAL'},{c:'thought',t:'"400+ challenges. This tool won half of them."'},{c:'',t:'Steganography, cipher decryption, hash cracking.'},{c:'g',t:'STATUS: CLASSIFIED'}]},'/home/elliot/projects/vuln-scanner.txt':{type:'file',content:[{c:'r',t:'// VULN SCANNER'},{c:'thought',t:'"Finds what automated scanners miss."'},{c:'',t:'OWASP Top 10. SQLi, XSS, headers.'},{c:'g',t:'STATUS: IN PROGRESS'}]},'/home/elliot/projects/osint-mapper.txt':{type:'file',content:[{c:'r',t:'// OSINT MAPPER'},{c:'thought',t:'"You\'d be surprised what\'s already public."'},{c:'',t:'Subdomain enum, email leaks, WHOIS.'},{c:'g',t:'STATUS: DEPLOYED'}]},'/home/elliot/writeups':{type:'dir',children:['status.txt']},'/home/elliot/writeups/htb-sqli.txt':{type:'file',content:[{c:'r',t:'// HTB \u2014 SQL Injection'},{c:'thought',t:'"The login form trusted user input."'},{c:'',t:'UNION-based SQLi. Full DB dump. Admin access.'}]},'/home/elliot/writeups/picoctf-rsa.txt':{type:'file',content:[{c:'r',t:'// PicoCTF \u2014 RSA Crypto'},{c:'thought',t:'"Small private exponent. Wiener\'s attack."'},{c:'',t:'Private key recovered. Flag captured.'}]},'/home/elliot/writeups/thm-forensics.txt':{type:'file',content:[{c:'r',t:'// THM \u2014 Memory Forensics'},{c:'thought',t:'"Everything they deleted was still in RAM."'},{c:'',t:'Volatility. LSASS dump. Credentials.'}]},'/home/elliot/writeups/re-binary.txt':{type:'file',content:[{c:'r',t:'// RE \u2014 Binary'},{c:'thought',t:'"The XOR key was hiding in .bss all along."'},{c:'',t:'Ghidra decompile. XOR extracted. Flag decoded.'}]},'/home/elliot/resume.txt':{type:'file',content:[{c:'r',t:'// RESUME \u2014 anonymous'},{c:'g',t:'B.Tech \u2014 [Your University] \u2014 [Year]'},{c:'',t:'Python \xb7 Bash \xb7 Nmap \xb7 Burp Suite \xb7 Wireshark'},{c:'',t:'TryHackMe Top 5% \xb7 Google Cybersecurity \xb7 Security+ WIP'},{c:'g',t:'Open to: Internships \xb7 Entry-level Security \xb7 CTF Teams'}]},'/home/elliot/contact':{type:'dir',children:['links.txt']},'/home/elliot/contact/links.txt':{type:'file',content:[{c:'r',t:'// CONTACT'},{c:'g',t:'Email: chandraxsekhar007@gmail.com'},{c:'g',t:'GitHub: github.com/chandraxsekhar007'},{c:'g',t:'LinkedIn: linkedin.com/in/r-chandra-shekar-a620aa252'},{c:'thought',t:'// Or type: operative'}]},'/home/elliot/journal':{type:'dir',children:['day_001.txt','day_047.txt','day_112.txt','day_200.txt']},'/home/elliot/journal/day_001.txt':{type:'file',content:[{c:'r',t:'// DAY 001'},{c:'thought',t:'"First terminal. I was 16."'},{c:'',t:'Not to do homework. To understand.'},{c:'thought',t:'"That question never left."'}]},'/home/elliot/journal/day_047.txt':{type:'file',content:[{c:'r',t:'// DAY 047'},{c:'',t:'First CTF. Top 10%.'},{c:'thought',t:'"Not the smartest. Just stayed the longest."'}]},'/home/elliot/journal/day_112.txt':{type:'file',content:[{c:'r',t:'// DAY 112'},{c:'thought',t:'"A place where breaking things is the job."'},{c:'',t:'Where curiosity is a feature, not a liability.'},{c:'thought',t:'"I think it\'s looking at me right now."'}]},'/home/elliot/journal/day_200.txt':{type:'file',content:[{c:'r',t:'// DAY 200'},{c:'thought',t:'"I used to think I wanted to be invisible."'},{c:'',t:'But this \u2014 this portfolio \u2014 is me saying:'},{c:'g',t:'I was here. I figured things out. I\'m ready.'},{c:'thought',t:'"And I\'m just getting started."'}]},'/home/elliot/.hidden':{type:'dir',children:['readme.txt','fragment_a.txt','fragment_b.b64','fragment_c.bin']},'/home/elliot/.hidden/readme.txt':{type:'file',content:[{c:'r',t:'// THREE FRAGMENTS. ONE TRUTH.'},{c:'',t:'fragment_a.txt  \u2192 cat fragment_a.txt'},{c:'',t:'fragment_b.b64  \u2192 decode fragment_b.b64'},{c:'',t:'fragment_c.bin  \u2192 strings fragment_c.bin'},{c:'thought',t:'// Combine all three. Then: operative'}]},'/home/elliot/.hidden/fragment_a.txt':{type:'file',ctf:'a',content:[{c:'r',t:'// FRAGMENT A'},{c:'flag',t:FRAG_A},{c:'thought',t:'// Part 1 of 3.'}]},'/home/elliot/.hidden/fragment_b.b64':{type:'file',content:[{c:'r',t:'// FRAGMENT B \u2014 BASE64'},{c:'',t:'Use: decode fragment_b.b64'},{c:'dim',t:'\u2501'.repeat(21)},{c:'match',t:'MEBuM18='},{c:'thought',t:'// Decode it.'}]},'/home/elliot/.hidden/fragment_c.bin':{type:'file',content:[{c:'r',t:'// FRAGMENT C \u2014 BINARY'},{c:'',t:'Cannot display binary.'},{c:'thought',t:'// Use: strings fragment_c.bin'}]},'/home/elliot/fsociety.sh':{type:'exec',content:[{c:'r',t:'#!/bin/bash \u2014 fsociety v0.1'},{c:'dim',t:'# Operation 5/9 \u2014 full cinematic experience'},{c:'dim',t:'# Acts 1 through 4 + Operation debrief'},{c:'thought',t:'# "Once you see it, you cannot unsee it."'},{c:'g',t:'# Execute: ./fsociety.sh'}]}};
 function openKali(){document.getElementById('kaliOverlay').classList.add('show');document.getElementById('heroPage').style.overflow='hidden';if(!kaliInited){kaliInited=true;initKali();}document.getElementById('koInput').focus();}
 function closeKali(){document.getElementById('kaliOverlay').classList.remove('show');document.getElementById('heroPage').style.overflow='auto';}
 function initKali(){kPrint([{c:'r',t:'\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557 \u2588\u2588\u2588\u2588\u2588\u2588\u2557  \u2588\u2588\u2588\u2588\u2588\u2588\u2557'},{c:'r',t:'\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255d\u2588\u2588\u2554\u2550\u2550\u2550\u2588\u2588\u2557\u2588\u2588\u2554\u2550\u2550\u2550\u2550'},{c:'r',t:'\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255d\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2551   \u2588\u2588\u2551\u2588\u2588\u2551      '},{c:'r',t:'\u2588\u2588\u2554\u2550\u2550\u2588\u2588\u2557\u255a\u2550\u2550\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2551   \u2588\u2588\u2551\u2588\u2588\u2551      '},{c:'r',t:'\u2588\u2588\u2551  \u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u255a\u2588\u2588\u2588\u2588\u2588\u2588\u2554\u255d\u255a\u2588\u2588\u2588\u2588\u2588\u2588\u2557'},{c:'dim',t:''},{c:'b',t:'  fsociety OS \u2014 anonymous@localhost'},{c:'dim',t:'  "The system is yours now."'},{c:'dim',t:''},{c:'w',t:'  Type <span style="color:var(--b)">help</span> for commands. <span style="color:var(--g)">./fsociety.sh</span> for the experience.'},{c:'dim',t:'  Three fragments hidden. Find them all.'},{c:'dim',t:''}]);updKP();const inp=document.getElementById('koInput');inp.addEventListener('keydown',e=>{if(e.key==='Enter'){const cmd=inp.value.trim();if(cmd){termHist.unshift(cmd);histIdx=-1;runKCmd(cmd);}inp.value='';}else if(e.key==='ArrowUp'){e.preventDefault();if(histIdx<termHist.length-1){histIdx++;inp.value=termHist[histIdx];}}else if(e.key==='ArrowDown'){e.preventDefault();if(histIdx>0){histIdx--;inp.value=termHist[histIdx];}else{histIdx=-1;inp.value='';}}else if(e.key==='Tab'){e.preventDefault();doTab(inp.value);}});}
