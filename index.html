@@ -256,8 +256,8 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
 .hp-scroll-line{width:1px;height:38px;background:linear-gradient(to bottom,transparent,rgba(255,0,0,.35));transform-origin:top;animation:scrollPulse 2s ease-in-out infinite;}
 .hp-scroll-txt-v{font-size:7px;letter-spacing:4px;color:rgba(255,255,255,.12);writing-mode:vertical-rl;transform:rotate(180deg);}
 .hp-divider{width:calc(100% - 16%);height:1px;background:linear-gradient(90deg,rgba(255,0,0,.09),transparent);margin:0 8%;}
-.hp-section{padding:90px 8%;max-width:1100px;margin:0 auto;}
-.hp-sec-tag{font-size:7px;letter-spacing:6px;color:rgba(255,0,0,.25);margin-bottom:8px;}
+.hp-section{padding:90px 8%;max-width:1400px;margin:0 auto;}
+.hp-sec-tag{font-size:9px;letter-spacing:6px;color:rgba(255,0,0,.35);margin-bottom:14px;}
 .hp-sec-title{font-family:var(--vt);font-size:clamp(36px,6vw,72px);color:#fff;margin-bottom:56px;letter-spacing:3px;cursor:default;display:inline-block;}
 .hp-sec-title span{color:var(--r);}
 .hp-sec-title:hover{animation:titleGlitch .18s ease;}
@@ -273,7 +273,7 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
 .hp-skill-group{margin-bottom:28px;}
 .hp-skill-lbl{font-size:7px;letter-spacing:5px;color:rgba(255,0,0,.2);margin-bottom:12px;transition:letter-spacing .3s;}
 .hp-skill-lbl:hover{letter-spacing:7px;}
-.hp-skills{display:flex;flex-wrap:wrap;gap:10px;}
+.hp-skills{display:flex;flex-wrap:wrap;gap:12px;}
 .hp-skill{font-size:9px;letter-spacing:3px;padding:10px 18px;border:1px solid rgba(255,255,255,.05);color:rgba(255,255,255,.33);transition:all .3s;position:relative;overflow:hidden;cursor:none;}
 .hp-skill-bg{position:absolute;inset:0;background:rgba(255,0,0,.09);transform-origin:left;transform:scaleX(0);transition:transform .9s ease;pointer-events:none;}
 .hp-skill-label{position:relative;z-index:1;}
@@ -905,10 +905,10 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     <div style="position:relative;z-index:1;">
       <div class="hp-eyeline">// E CORP: OFFLINE &mdash; ALLSAFE: DESTROYED &mdash; YOU ARE: WELCOME</div>
       <div class="hp-name">ANON<br>YMOUS</div>
-      <div style="font-family:var(--mono);font-size:10px;letter-spacing:5px;color:rgba(255,255,255,.28);margin-top:-8px;margin-bottom:4px;">R. CHANDRA SEKHAR &mdash; operating as anonymous</div>
+      <div style="font-family:var(--mono);font-size:clamp(10px,1.1vw,13px);letter-spacing:5px;color:rgba(255,255,255,.35);margin-top:4px;margin-bottom:6px;white-space:nowrap;">R. CHANDRA SEKHAR &mdash; operating as anonymous</div>
       <div class="hp-role">CYBERSECURITY STUDENT &middot; PENETRATION TESTER &middot; CTF PLAYER<span class="hp-role-cur"></span></div>
-      <div class="hp-quote">&ldquo;I don&apos;t just want a job. I want to change things.&rdquo;<span id="f1Trigger" style="color:rgba(255,0,0,.05);font-size:8px;cursor:none;margin-left:5px;transition:color .3s;vertical-align:super;user-select:none;" onmouseover="this.style.color='rgba(255,0,0,.38)';playSfx('hover')" onmouseout="this.style.color='rgba(255,0,0,.05)'" onclick="showF1()">[*]</span></div>
-      <div class="hp-avail"><div class="hp-avail-dot"></div>OPEN TO OPPORTUNITIES &mdash; 2025</div>
+      <div class="hp-quote">&ldquo;Breaking in is how I learn to keep others out.&rdquo;<span id="f1Trigger" style="color:rgba(255,0,0,.05);font-size:8px;cursor:none;margin-left:5px;transition:color .3s;vertical-align:super;user-select:none;" onmouseover="this.style.color='rgba(255,0,0,.38)';playSfx('hover')" onmouseout="this.style.color='rgba(255,0,0,.05)'" onclick="showF1()">[*]</span></div>
+      <div class="hp-avail"><div class="hp-avail-dot"></div>OPEN TO OPPORTUNITIES &mdash; 2026</div>
       <div class="hp-scroll-hint"><div class="hp-scroll-line"></div><div class="hp-scroll-txt-v">SCROLL</div></div>
     </div>
   </div>
@@ -937,9 +937,10 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     </div>
   </div>
   <div class="hp-divider"></div>
-  <div class="hp-section" id="sec-skills">
+  <div class="hp-section" id="sec-skills" style="max-width:100%;padding:90px 8%;">
     <div class="hp-sec-tag">// 02 &mdash; ARSENAL</div>
     <div class="hp-sec-title">TECHNICAL <span>SKILLS</span></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px 64px;">
     <div class="hp-skill-group reveal">
       <div class="hp-skill-lbl">TOOLS</div>
       <div class="hp-skills">
@@ -969,11 +970,12 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
         <div class="hp-skill" onmouseenter="playSfx('hover')">Privilege Escalation</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">Penetration Testing</div>
         <div class="hp-skill" onmouseenter="playSfx('hover')">OSINT</div>
-      </div>
+            </div>
     </div>
+    </div><!-- /grid -->
   </div>
-  <div class="hp-divider"></div>
-  <div class="hp-section" id="sec-projects">
+  <div class="hp-divider">
+  <div class="hp-section" id="sec-projects" style="max-width:100%;padding:90px 8%;">
     <div class="hp-sec-tag">// 03 &mdash; OPERATIONS</div>
     <div class="hp-sec-title">PROJECTS</div>
     <div class="hp-projects">
@@ -994,7 +996,7 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
     </div>
   </div>
   <div class="hp-divider"></div>
-  <div class="hp-section" id="sec-writeups">
+  <div class="hp-section" id="sec-writeups" style="max-width:100%;padding:90px 8%;">
     <div class="hp-sec-tag">// 04 &mdash; FIELD NOTES</div>
     <div class="hp-sec-title">CTF WRITE<span>UPS</span></div>
 
